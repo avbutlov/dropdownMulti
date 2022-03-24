@@ -1,0 +1,25 @@
+.textItem {
+    display: flex;
+    align-items: center;
+    background-color: rgba(48, 213, 210, 0.44);
+    border-radius: 3px;
+    padding: 3px;
+    cursor: default;
+}
+
+.textItem:focus {
+    outline: 1px solid black;
+}
+
+.closeBtn {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.closeBtn img {
+    display: flex;
+    align-items: center;
+    width: 14px;
+    height: 14px;
+}

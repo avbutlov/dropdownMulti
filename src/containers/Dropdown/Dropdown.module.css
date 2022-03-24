@@ -1,0 +1,14 @@
+.dropdown {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown button.hidden {
+    display: none;
+}

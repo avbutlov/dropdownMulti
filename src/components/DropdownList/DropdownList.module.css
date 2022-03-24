@@ -1,0 +1,28 @@
+.dropdownList {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3px;
+    gap: 3px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.dropdownListItem {
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.dropdownListItem:hover, .dropdownListItem.hovered {
+    background-color: rgba(48, 213, 210, 0.24);
+    outline: 1px solid black;
+}
+
+.dropdownListItem.checked {
+    background-color: rgba(48, 213, 210, 0.44);
+}
